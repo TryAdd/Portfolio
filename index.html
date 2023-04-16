@@ -1,0 +1,198 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b6fb6a5ff2.js" crossorigin="anonymous"></script>
+    <title>Ahmed portfolio</title>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <img src="/images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+        </nav>
+        <div class="container">
+            <div class="header-text">
+                <h1>Hi, I'm <span> Ahmed </span> Hisham</h1>
+                <p>A <span> Software Engineer </span></p>
+            </div>
+        </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/my_img.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I'm a very good learner and i have many goal's in life. I love to study 
+                    and to learn new language's and master them like Java, Flutter, javaScript,
+                    PHP, CSS, HTML and Python. my goal is to become a professional in every language.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-cont active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                        <li><span>Web Development</span><br>Develop web from scratch</li>
+                        <li><span>Flutter</span><br>building app from scratch</li>
+                    </ul>
+                </div>
+                <div class="tab-cont" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>GA bibf in Software Engineer</li>
+                        <li><span>2021</span><br>Got my first Google certificate on my Flutter Project</li>
+                        <li><span>2020</span><br>Build my first flutter project</li>
+                    </ul>
+                </div>
+                <div class="tab-cont" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Graduate from GA bibf as Software Engineer</li>
+                        <li><span>2021-2022</span><br>Online course's by google</li>
+                        <li><span>2020</span><br>Graduate from highscool</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My servieces</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>UI/UX</h2>
+                <p>I enjoy Design interfaces and be creative on it and try to 
+                    be special in many ways like make animeted interface or matching colors
+                     and more</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2>Web Design</h2>
+                <p>I Design many website's and i enjoy Designing them becouse 
+                    i know that i wil make them perfect</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-apple"></i>
+                <h2>Flutter App's</h2>
+                <p>I Design and build my own app using flutter and am adding 
+                    in it new futur's and soon ill puplish it</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="/images/work1.png">
+                <div class="layer">
+                    <h3>Trackig your fitness</h3>
+                    <p>Track you move's and count the steps for you so you always active and be healthier</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work4.png">
+                <div class="layer">
+                    <h3>Plants</h3>
+                    <p>It's giving you an idea of plant's and how to take good care of them and how many time's you should give them water etc</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work3.png">
+                <div class="layer">
+                    <h3>Coach</h3>
+                    <p>It's helping you to find the best coach for you and to stay contact with him/her all the time so they track you and help you be healthy</p>
+                    <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ahd5his@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +973 33880024</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/try-add-51537b216"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com/ahd_his??igshid=NDk5NIZjQ="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/ahd_his?s=21&t=afIXQiNitFV5nY_e7AiiCOg"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://t.snapchat.com/Lp7e2tkQ"><i class="fa-solid fa-ghost"></i></a>
+                </div>
+
+            <!-- this for cv ltr -->
+                <!-- <a href=""></a> -->
+            
+            
+            
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massege" rows="6" placeholder="Your Massege"></textarea>
+                    <button type="button" class="btn btn2">Submit</button>
+                </form>
+            </div>    
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ahmed Hisham. Made by Me <i class="fa-solid fa-face-laugh-wink"></i> </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcont = document.getElementsByClassName("tab-cont");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabconts of tabcont){
+            tabconts.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+</body>
+</html>
